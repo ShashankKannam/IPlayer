@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060C4D981F438F0F00E78C4D /* IPlayerWebRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060C4D971F438F0F00E78C4D /* IPlayerWebRequest.swift */; };
+		060C4D9A1F438F8F00E78C4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060C4D991F438F8F00E78C4D /* Constants.swift */; };
+		060C4D9C1F43911A00E78C4D /* IPlayerWebRequestedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060C4D9B1F43911A00E78C4D /* IPlayerWebRequestedResponse.swift */; };
+		060C4D9E1F43965E00E78C4D /* AlbumParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060C4D9D1F43965E00E78C4D /* AlbumParser.swift */; };
+		060C4DA01F440C3C00E78C4D /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060C4D9F1F440C3C00E78C4D /* ImageDownloader.swift */; };
+		06CF884B1F436C8200AD7D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF884A1F436C8200AD7D24 /* AppDelegate.swift */; };
+		06CF884D1F436C8200AD7D24 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF884C1F436C8200AD7D24 /* LibraryViewController.swift */; };
+		06CF88501F436C8200AD7D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CF884E1F436C8200AD7D24 /* Main.storyboard */; };
+		06CF88521F436C8200AD7D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CF88511F436C8200AD7D24 /* Assets.xcassets */; };
+		06CF88551F436C8200AD7D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CF88531F436C8200AD7D24 /* LaunchScreen.storyboard */; };
+		06CF885D1F43713E00AD7D24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF885C1F43713E00AD7D24 /* Extensions.swift */; };
+		06CF885F1F43726600AD7D24 /* CustomUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF885E1F43726600AD7D24 /* CustomUIButton.swift */; };
+		06CF88611F43753800AD7D24 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF88601F43753800AD7D24 /* Album.swift */; };
+		06CF88681F437C5100AD7D24 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF88661F437C5100AD7D24 /* AlbumTableViewCell.swift */; };
+		06CF88691F437C5100AD7D24 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CF88671F437C5100AD7D24 /* AlbumTableViewCell.xib */; };
+		06CF886B1F4380A100AD7D24 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF886A1F4380A100AD7D24 /* PlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060C4D971F438F0F00E78C4D /* IPlayerWebRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPlayerWebRequest.swift; sourceTree = "<group>"; };
+		060C4D991F438F8F00E78C4D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		060C4D9B1F43911A00E78C4D /* IPlayerWebRequestedResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPlayerWebRequestedResponse.swift; sourceTree = "<group>"; };
+		060C4D9D1F43965E00E78C4D /* AlbumParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumParser.swift; sourceTree = "<group>"; };
+		060C4D9F1F440C3C00E78C4D /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		06CF88471F436C8200AD7D24 /* IPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CF884A1F436C8200AD7D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06CF884C1F436C8200AD7D24 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		06CF884F1F436C8200AD7D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06CF88511F436C8200AD7D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06CF88541F436C8200AD7D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06CF88561F436C8200AD7D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CF885C1F43713E00AD7D24 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		06CF885E1F43726600AD7D24 /* CustomUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIButton.swift; sourceTree = "<group>"; };
+		06CF88601F43753800AD7D24 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		06CF88661F437C5100AD7D24 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		06CF88671F437C5100AD7D24 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		06CF886A1F4380A100AD7D24 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CF88441F436C8200AD7D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060C4D961F4388CE00E78C4D /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				060C4D971F438F0F00E78C4D /* IPlayerWebRequest.swift */,
+				060C4D9B1F43911A00E78C4D /* IPlayerWebRequestedResponse.swift */,
+				060C4D9F1F440C3C00E78C4D /* ImageDownloader.swift */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		06CF883E1F436C8200AD7D24 = {
+			isa = PBXGroup;
+			children = (
+				06CF88491F436C8200AD7D24 /* IPlayer */,
+				06CF88481F436C8200AD7D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06CF88481F436C8200AD7D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06CF88471F436C8200AD7D24 /* IPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CF88491F436C8200AD7D24 /* IPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				06CF884E1F436C8200AD7D24 /* Main.storyboard */,
+				060C4D961F4388CE00E78C4D /* WebService */,
+				06CF88641F43757B00AD7D24 /* Model */,
+				06CF88651F43758E00AD7D24 /* View */,
+				06CF88631F43756C00AD7D24 /* Controller */,
+				06CF88621F43754800AD7D24 /* SupportingFiles */,
+			);
+			path = IPlayer;
+			sourceTree = "<group>";
+		};
+		06CF88621F43754800AD7D24 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				060C4D991F438F8F00E78C4D /* Constants.swift */,
+				06CF885C1F43713E00AD7D24 /* Extensions.swift */,
+				06CF884A1F436C8200AD7D24 /* AppDelegate.swift */,
+				06CF88561F436C8200AD7D24 /* Info.plist */,
+				06CF88511F436C8200AD7D24 /* Assets.xcassets */,
+				06CF88531F436C8200AD7D24 /* LaunchScreen.storyboard */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		06CF88631F43756C00AD7D24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06CF884C1F436C8200AD7D24 /* LibraryViewController.swift */,
+				06CF886A1F4380A100AD7D24 /* PlayerViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		06CF88641F43757B00AD7D24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06CF88601F43753800AD7D24 /* Album.swift */,
+				060C4D9D1F43965E00E78C4D /* AlbumParser.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		06CF88651F43758E00AD7D24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06CF885E1F43726600AD7D24 /* CustomUIButton.swift */,
+				06CF88661F437C5100AD7D24 /* AlbumTableViewCell.swift */,
+				06CF88671F437C5100AD7D24 /* AlbumTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06CF88461F436C8200AD7D24 /* IPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CF88591F436C8200AD7D24 /* Build configuration list for PBXNativeTarget "IPlayer" */;
+			buildPhases = (
+				06CF88431F436C8200AD7D24 /* Sources */,
+				06CF88441F436C8200AD7D24 /* Frameworks */,
+				06CF88451F436C8200AD7D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPlayer;
+			productName = IPlayer;
+			productReference = 06CF88471F436C8200AD7D24 /* IPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CF883F1F436C8200AD7D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shashank Kannam";
+				TargetAttributes = {
+					06CF88461F436C8200AD7D24 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 06CF88421F436C8200AD7D24 /* Build configuration list for PBXProject "IPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06CF883E1F436C8200AD7D24;
+			productRefGroup = 06CF88481F436C8200AD7D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06CF88461F436C8200AD7D24 /* IPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06CF88451F436C8200AD7D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CF88551F436C8200AD7D24 /* LaunchScreen.storyboard in Resources */,
+				06CF88521F436C8200AD7D24 /* Assets.xcassets in Resources */,
+				06CF88501F436C8200AD7D24 /* Main.storyboard in Resources */,
+				06CF88691F437C5100AD7D24 /* AlbumTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CF88431F436C8200AD7D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CF885F1F43726600AD7D24 /* CustomUIButton.swift in Sources */,
+				06CF884D1F436C8200AD7D24 /* LibraryViewController.swift in Sources */,
+				060C4D9E1F43965E00E78C4D /* AlbumParser.swift in Sources */,
+				060C4D9C1F43911A00E78C4D /* IPlayerWebRequestedResponse.swift in Sources */,
+				06CF885D1F43713E00AD7D24 /* Extensions.swift in Sources */,
+				06CF886B1F4380A100AD7D24 /* PlayerViewController.swift in Sources */,
+				06CF884B1F436C8200AD7D24 /* AppDelegate.swift in Sources */,
+				06CF88611F43753800AD7D24 /* Album.swift in Sources */,
+				06CF88681F437C5100AD7D24 /* AlbumTableViewCell.swift in Sources */,
+				060C4D981F438F0F00E78C4D /* IPlayerWebRequest.swift in Sources */,
+				060C4DA01F440C3C00E78C4D /* ImageDownloader.swift in Sources */,
+				060C4D9A1F438F8F00E78C4D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06CF884E1F436C8200AD7D24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CF884F1F436C8200AD7D24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06CF88531F436C8200AD7D24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CF88541F436C8200AD7D24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06CF88571F436C8200AD7D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06CF88581F436C8200AD7D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06CF885A1F436C8200AD7D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = virtusaTraining.IPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		06CF885B1F436C8200AD7D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = virtusaTraining.IPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06CF88421F436C8200AD7D24 /* Build configuration list for PBXProject "IPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CF88571F436C8200AD7D24 /* Debug */,
+				06CF88581F436C8200AD7D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CF88591F436C8200AD7D24 /* Build configuration list for PBXNativeTarget "IPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CF885A1F436C8200AD7D24 /* Debug */,
+				06CF885B1F436C8200AD7D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06CF883F1F436C8200AD7D24 /* Project object */;
+}
